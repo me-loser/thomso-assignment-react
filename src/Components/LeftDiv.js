@@ -77,7 +77,7 @@ const LeftDiv = (props) => {
               <img
                 className={styles.image}
                 width={"20em"}
-                src={require("../home.png")}
+                src={require("../images/home.png")}
                 alt=""
               />
               Home
@@ -87,7 +87,7 @@ const LeftDiv = (props) => {
         <div className={styles.animatedBox}>
           <img
             className={styles.animatedImage}
-            src={require("../animation.png")} alt=""
+            src={require("../images/animation.png")} alt=""
           />
         </div>
       </div>

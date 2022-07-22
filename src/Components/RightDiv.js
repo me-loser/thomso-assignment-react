@@ -10,7 +10,7 @@ const RightDiv = (props) => {
         <div className={styles.imageContainer}>
           <img
             className={styles.image}
-            src={require("../carousel-img1.jpeg")}
+            src={require("../images/carousel-img1.jpeg")}
             alt=""
           />
           <div className={styles.textAndButton}>
@@ -21,7 +21,7 @@ const RightDiv = (props) => {
             </p>
             <Button2 className={styles.newButton}>
               <img
-                src={require("../Language.png")}
+                src={require("../images/Language.png")}
                 height={"25px"}
                 alt=""
               ></img>
@@ -32,7 +32,7 @@ const RightDiv = (props) => {
         <div className={styles.imageContainer}>
           <img
             className={styles.image}
-            src={require("../carousel-img2.jpeg")}
+            src={require("../images/carousel-img2.jpeg")}
             alt=""
           />
           <div className={styles.textAndButton}>
@@ -43,7 +43,7 @@ const RightDiv = (props) => {
             </p>
             <Button2 className={styles.newButton}>
               <img
-                src={require("../Language.png")}
+                src={require("../images/Language.png")}
                 height={"25px"}
                 alt=""
               ></img>
