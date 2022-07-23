@@ -29,4 +29,7 @@
     .textAndButton{
         width: 100%;
     }
+    .image{
+        height: fit-content;
+    }
 }

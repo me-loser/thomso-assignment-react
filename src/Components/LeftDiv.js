@@ -4,10 +4,6 @@ import Button1 from './UI/Button1';
 import Button2 from './UI/Button2';
 const LeftDiv = (props) => {
     const [isValid,setIsValid] =useState(true);
-    // const contentHandler =() => {
-    //     const second_div =document.querySelector('.')
-    // }
-
     const nextContent = () => {
         setIsValid(false);
         document.querySelector('.title').innerHTML = "Bullet Train";
