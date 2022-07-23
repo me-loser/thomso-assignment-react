@@ -3,7 +3,6 @@ import styles from './LeftDiv.module.css';
 import Button1 from './UI/Button1';
 import Button2 from './UI/Button2';
 const LeftDiv = (props) => {
-    // const [isValid,setIsValid] =useState(true);
     const [index,setIndex] = useState(0);
     const content = [
       {
