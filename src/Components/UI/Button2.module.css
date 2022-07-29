@@ -1,6 +1,10 @@
 .button{
     background:  #11111166;
-
-    border: 4px 4px 0 4px #4097FE;
     color: white;
+    border: 2px solid #4097FE;
+    transition: all 400ms ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    background: rgba(17,17,17,1);
 }

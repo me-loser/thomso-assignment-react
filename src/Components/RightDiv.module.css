@@ -1,6 +1,5 @@
 
 .imageContainer{
-    position: relative;
     display: flex;
     align-items: flex-end;
 }
@@ -16,14 +15,49 @@
     height: 100vh;
     min-height: 650px;
 }
-.newButton{
+.imageText{
     align-self: end;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    align-self: end;
+    width: fit-content;
+}
+.dropdownList{
+    display: none;
+    list-style-type: none;
+}
+.dropdownList.invalid{
+    display: block;
+}
+.dropbtn{
     display: flex;
+    justify-content: center;
     align-items: center;
-    min-width: fit-content;    
-    padding: 1rem;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    padding: 0.6rem 1.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.dropbtn:focus{
+    background-color: rgba(17,17,17);
+}
+.blockBtn{
+    padding: 0.6rem;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(17,17,17,0.5);
+}
+.blockBtn:hover{
+    background-color: rgba(17,17,17,1);
+}
+.blockBtn:focus{
+    background-color: rgba(17,17,17,1);
+
+}
+.dropdownImage{
+    margin-right: 0.3rem;
 }
 @media (max-width: 820px){
     .textAndButton{

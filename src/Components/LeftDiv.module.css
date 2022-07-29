@@ -1,9 +1,9 @@
 .angled {
 	position: relative;
 	bottom: 0;
-	padding: 0 9em 0 1em;
+	padding-left: 1em;
 	color: #ffffff;
-	width: 100%;
+	width: 82%;
 	height: 100vh;
 	min-height: 650px;
 	z-index: 1;	
@@ -18,7 +18,7 @@
 	left: 0;
 	height: 100vh;
 	min-height: 100%;
-	width: 50%;
+	width: 60%;
 	background: url(../images/bg-image.jpeg);
 	background-size:cover;
 	background-position: center;
@@ -61,7 +61,7 @@
 	display: flex;
 	align-items: center;
 	width: fit-content;
-	padding: 1rem;
+	padding: 0.8rem 1rem;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -75,6 +75,10 @@
 .animatedImage{
 	width: 400px;
 	animation: myAnimation 2s 1;
+}
+.btnImage{
+	width: 1.5em;
+	margin-right: 0.3rem;
 }
 @keyframes myAnimation{
 	from {transform: scale(0)}

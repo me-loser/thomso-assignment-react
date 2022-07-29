@@ -24,15 +24,15 @@
 }
 .carousel.carousel-slider .control-prev.control-arrow{
     position: absolute;
-    top:75%;
-    left: 88%;
+    top:72%;
+    left: 90%;
     width: fit-content;
     opacity: 1;
     border-right: solid 3px white;
 }
 .carousel.carousel-slider .control-next.control-arrow{
     position: absolute;
-    top: 75%;
+    top: 72%;
     opacity: 1;
     border-left: solid 3px white;
 }

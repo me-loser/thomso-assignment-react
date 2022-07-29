@@ -1,4 +1,9 @@
 .button{
     color: white;
     background-color: #8095A5CC;
+    border: 4px blue;
+}
+.button:hover{
+    background-color: rgba(128,149,165,1);
+    cursor: pointer;
 }
